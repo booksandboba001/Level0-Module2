@@ -12,10 +12,23 @@ public class Validation {
 		
 		Random randomMaker = new Random();
 		
-		int randomNumber = randomMaker.nextInt(5);
+		int randomNumber = randomMaker.nextInt(6);
 		
-		System.out.println(randomNumber);
-
+		if (randomNumber == 1){
+			JOptionPane.showMessageDialog(null, "Looking good today!");
+		}
+		if ( randomNumber == 2){
+			JOptionPane.showMessageDialog(null, "You've been to the gym, haven't you?");
+		}
+		if (randomNumber == 3){
+			JOptionPane.showMessageDialog(null, "You look like a lean, mean, coding machine!");
+		}
+		if (randomNumber == 4){
+			JOptionPane.showMessageDialog(null, "Have a great day!");
+		}
+		if (randomNumber == 5) {
+			JOptionPane.showMessageDialog(null, "ftsábkíkaaaaaaaaaaaaaa (This means, 'sorry, brain was dying. Hope you have a good day')");
+		}
 		// 1. Use each value of randomNumber to give the user a random compliment.
 
 		// 2. Repeat all the code above 10 times
