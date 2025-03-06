@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VotingBooth",
+            "request": "launch",
+            "mainClass": "_03_string_conversion._4_voting_booth.VotingBooth",
+            "projectName": "Level0-Module2_26c0ea07"
+        },
+        {
+            "type": "java",
+            "name": "RollerCoaster",
+            "request": "launch",
+            "mainClass": "_03_string_conversion._3_rollercoaster.RollerCoaster",
+            "projectName": "Level0-Module2_26c0ea07"
+        },
+        {
+            "type": "java",
             "name": "StringsCannotAdd",
             "request": "launch",
             "mainClass": "_03_string_conversion._2_strings_cannot_add.StringsCannotAdd",
