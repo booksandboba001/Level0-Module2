@@ -1,6 +1,8 @@
 
 package _99_extra;
 
+import javax.swing.JOptionPane;
+
 /* NASA wants to shoot a rocket into orbit.
  * Somebody has to do the countdown or the rocket won't launch.
  * 
@@ -13,9 +15,16 @@ package _99_extra;
 public class NasaCountdown {
     public static void main(String[] args) throws InterruptedException {
         // 2. Use a pop-up to ask the user where to start counting from
-        
+        String beginning = JOptionPane.showInputDialog("Which number do you want to start counting down from?");
+        int number = Integer.parseInt(beginning);
         // 3. Change the countdown to use the new starting point
-        
+        while (number > 0){
+            System.out.println(number);
+            number--;
+        }
+        if (number == 0){
+            System.out.println("Blastoff!");
+        }
         // 1. Print a countdown from 10 to 0 on the console
             
             // 4. Use the Sound.speak method to hear the countdown.
